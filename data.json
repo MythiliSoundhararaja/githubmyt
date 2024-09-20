@@ -121,22 +121,17 @@
       "patterns": [
         "What meetings do I have today?",
         "Can you tell me about upcoming events?",
-        "When is the next team meeting?",
-        “Are there any company events scheduled?”
+        "When is the next team meeting?"
       ],
       “responses”: [
-          “You have a team meeting scheduled at [time]. Would you like to add this to your calendar?”,
-          “The next company event is on [date]. Let me know if you'd like more details.”
+          “You have a team upcoming meeting scheduled.”,
+          “The next company event is going to happen.”
        ]
     },
     {
        “tag”: “jokes”,
        “patterns”: [
-           “Tell me a joke”,
-           "tell me a joke",
-           “Make me laugh”,
-           “Do you know any funny jokes?”,
-           “Give me a joke”
+           "tell me a joke"
        ],
        “responses”: [
            “Why did the scarecrow win an award? Because he was outstanding in his field!”,
