@@ -1,1 +1,164 @@
-
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "helo",
+        "Helo",
+        "Hello June",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! How can I assist you with HR workforce management today?",
+        "Hi there! What would you like to know about our workforce?",
+        "Good day! How may I help you with HR-related queries?"
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "What's the overall attendance?",
+        "How many employees are present today?",
+        "Can you give me the attendance report?",
+        "I need to check the attendance"
+      ],
+      "responses": [
+        "Sure, the overall attendance report for today is in the home page where you can find it.",
+        "Hey, Today's attendance can be viewed in Home page, where you can know ",
+        "No problem! In home page, you can see the daily attendance when you click it you can view the "
+      ]
+    },
+    {
+      "tag": "department_overview",
+      "patterns": [
+        "Can you give me a department overview?",
+        "I need to see the breakdown by department",
+        "Show me the department-wise workforce",
+        "What's the headcount per department?",
+        "Where can i see department overview?"
+      ],
+      "responses": [
+        "Absolutely, here's a quick overview of our workforce by department:",
+        "Sure thing, let me compile a department-wise breakdown for you. This will include headcount and other key metrics.",
+        "No problem, I can provide a detailed department overview. What specific information are you looking for?"
+      ]
+    },
+    {
+      "tag": "employee_search",
+      "patterns": [
+        "I need to find an employee's contact info",
+        "Can you look up an employee for me?",
+        "What's John Doe's email address?",
+        "Do you have Jane Smith's phone number?"
+      ],
+      "responses": [
+        "Okay, let me search for that employee in our directory. What's their name?",
+        "Sure, I can help you find an employee's contact details. Please provide their full name.",
+        "No problem! I'll look up the employee you need. Just let me know their first and last name."
+      ]
+    },
+    {
+      "tag": "leave_management",
+      "patterns": [
+        "I need to request time off",
+        "How do I apply for leave?",
+        "Can you help me with a vacation request?",
+        "I want to check my leave balance"
+      ],
+      "responses": [
+        "Got it, I can help you with leave management. Please provide the start and end dates for your time off request.",
+        "Okay, let's get your leave request started. What are the dates you need off?",
+        "Sure, I can assist with leave management. To check your balance or submit a request, please provide your employee ID."
+      ]
+    },
+    {
+      "tag": "policy_info",
+      "patterns": [
+        "Where can I find HR policies?",
+        "What's our dress code policy?",
+        "I need information on the parental leave policy",
+        "Can you tell me about our benefits?"
+      ],
+      "responses": [
+        "You can find all our HR policies on the company intranet under the 'HR Resources' section. Let me know if you need help locating anything specific.",
+        "Our dress code policy is available in the employee handbook. I can send you a direct link if you'd like.",
+        "Sure, our parental leave policy is as follows: [provide brief overview]. For full details, please refer to the policy document.",
+        "Our benefits package includes health insurance, 401(k), and paid time off. You can find more information on the HR benefits page."
+      ]
+    },
+    {
+      "tag": "maintenance_request",
+      "patterns": [
+        "I need to report a maintenance issue",
+        "How do I request maintenance?",
+        "There's a problem with the heating/cooling",
+        "The lights are out in my office"
+      ],
+      "responses": [
+        "Please provide details about the maintenance issue you're experiencing so I can log it for you.",
+        "Got it! What specific maintenance issue do you need assistance with?",
+        "[Provide instructions on how to submit a maintenance request or log it directly if applicable.]"
+      ]
+    },
+    {
+      "tag": "shift_schedule",
+      "patterns": [
+        "What's my shift schedule for this week?",
+        "Can I see my upcoming shifts?",
+        "When am I scheduled to work next?",
+        "Show me my work schedule"
+      ],
+      "responses": [
+        "[Provide instructions on how to access shift schedules or display current shifts if applicable.]",
+        "[If integrated with scheduling software] Your next shift is on [date/time]. Would you like to see more details?"
+      ]
+    },
+    {
+      "tag": "meeting_events",
+      "patterns": [
+        "What meetings do I have today?",
+        "Can you tell me about upcoming events?",
+        "When is the next team meeting?",
+        “Are there any company events scheduled?”
+      ],
+      “responses”: [
+          “You have a team meeting scheduled at [time]. Would you like to add this to your calendar?”,
+          “The next company event is on [date]. Let me know if you'd like more details.”
+       ]
+    },
+    {
+       “tag”: “jokes”,
+       “patterns”: [
+           “Tell me a joke”,
+           "tell me a joke",
+           “Make me laugh”,
+           “Do you know any funny jokes?”,
+           “Give me a joke”
+       ],
+       “responses”: [
+           “Why did the scarecrow win an award? Because he was outstanding in his field!”,
+           “I told my computer I needed a break, and now it won't stop sending me beach wallpapers!”,
+           “Why don’t scientists trust atoms? Because they make up everything!”,
+           “What do you call fake spaghetti? An impasta!”
+       ]
+   },
+   {
+     “tag”: “goodbye”,
+     “patterns”: [
+         “Bye”,
+         “Goodbye”,
+         “See you later”,
+         “I'm out”
+     ],
+     “responses”: [
+         “Goodbye! Have a great rest of your day.”,
+         “See you later, thanks for chatting.”,
+         “Bye for now! Let me know if you need anything else.”,
+         “Take care, goodbye!”
+     ]
+   }
+  ]
+}
