@@ -104,56 +104,17 @@
       ]
     },
     {
-      "tag": "shift_schedule",
+      "tag": "goobye",
       "patterns": [
-        "What's my shift schedule for this week?",
-        "Can I see my upcoming shifts?",
-        "When am I scheduled to work next?",
-        "Show me my work schedule"
+        "Bye",
+        "See you later",
+        "Good bye",
+        "catch later"
       ],
       "responses": [
-        "[Provide instructions on how to access shift schedules or display current shifts if applicable.]",
-        "[If integrated with scheduling software] Your next shift is on [date/time]. Would you like to see more details?"
+        "Feel free to ask me another question. see you",
+        "Bye, come back again soon"
       ]
     },
-    {
-      "tag": "meeting_events",
-      "patterns": [
-        "What meetings do I have today?",
-        "Can you tell me about upcoming events?",
-        "When is the next team meeting?"
-      ],
-      “responses”: [
-          “You have a team upcoming meeting scheduled.”,
-          “The next company event is going to happen.”
-       ]
-    },
-    {
-       “tag”: “jokes”,
-       “patterns”: [
-           "tell me a joke"
-       ],
-       “responses”: [
-           “Why did the scarecrow win an award? Because he was outstanding in his field!”,
-           “I told my computer I needed a break, and now it won't stop sending me beach wallpapers!”,
-           “Why don’t scientists trust atoms? Because they make up everything!”,
-           “What do you call fake spaghetti? An impasta!”
-       ]
-   },
-   {
-     “tag”: “goodbye”,
-     “patterns”: [
-         “Bye”,
-         “Goodbye”,
-         “See you later”,
-         “I'm out”
-     ],
-     “responses”: [
-         “Goodbye! Have a great rest of your day.”,
-         “See you later, thanks for chatting.”,
-         “Bye for now! Let me know if you need anything else.”,
-         “Take care, goodbye!”
-     ]
-   }
   ]
 }
