@@ -5,9 +5,6 @@
       "patterns": [
         "Hi",
         "Hello",
-        "helo",
-        "Helo",
-        "Hello June",
         "Good morning",
         "Good afternoon"
       ],
@@ -26,9 +23,9 @@
         "I need to check the attendance"
       ],
       "responses": [
-        "Sure, the overall attendance report for today is in the home page where you can find it.",
-        "Hey, Today's attendance can be viewed in Home page, where you can know ",
-        "No problem! In home page, you can see the daily attendance when you click it you can view the "
+        "Sure, let me pull up the attendance report for today. One moment please...",
+        "Okay, I can provide the overall attendance numbers. Just a sec while I gather that information.",
+        "No problem! I'll generate an attendance report for you. What time frame would you like to see?"
       ]
     },
     {
@@ -37,8 +34,7 @@
         "Can you give me a department overview?",
         "I need to see the breakdown by department",
         "Show me the department-wise workforce",
-        "What's the headcount per department?",
-        "Where can i see department overview?"
+        "What's the headcount per department?"
       ],
       "responses": [
         "Absolutely, here's a quick overview of our workforce by department:",
@@ -104,17 +100,17 @@
       ]
     },
     {
-      "tag": "goobye",
+      "tag": "shift_schedule",
       "patterns": [
-        "Bye",
-        "See you later",
-        "Good bye",
-        "catch later"
+        "What's my shift schedule for this week?",
+        "Can I see my upcoming shifts?",
+        "When am I scheduled to work next?",
+        "Show me my work schedule"
       ],
       "responses": [
-        "Feel free to ask me another question. see you",
-        "Bye, come back again soon"
+        "[Provide instructions on how to access shift schedules or display current shifts if applicable.]",
+        "[If integrated with scheduling software] Your next shift is on [date/time]. Would you like to see more details?"
       ]
-    },
+    }
   ]
 }
